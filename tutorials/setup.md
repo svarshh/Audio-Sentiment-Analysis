@@ -42,3 +42,17 @@ To add newly installed dependencies to ```requirements.txt```, use the following
 This command will add all the new dependencies along the specified versions to ```requirements.txt```
 
 To deactivate the virtual environment, simply run the command ```deactivate```
+
+## Run Jupyter Notebook
+
+Now that the environment has been setup, we can try running the Jupyter Notebook in a browser window.
+
+Make sure you are in the project directory and activate the virtual environment using the command ``source venv/bin/activate``
+
+Run the command ``jupyter notebook``
+
+This will launch a local Jupyter server, and open the server in your browser.  
+
+If it does not automatically launch, copy paste the link shown in the terminal which would look like: ``http://127.0.0.1:8888/tree?token={YOUR_TOKEN}``. 
+
+Now you can navigate to any of the folders, click on a Jupyter Notebook (files ending with ``.ipynb``) and run it in your browser.
