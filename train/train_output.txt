@@ -1,360 +1,402 @@
-[[ 2  0  4 ...  1  0 15]
- [ 2  0  5 ...  1  1 15]
- [ 2  0  5 ...  0  1 15]
- ...
- [ 2  0  1 ...  0  0  7]
- [ 2  0  1 ...  1  0  7]
- [ 2  0  0 ...  1  1  7]]
-[[ 2  0  4 ...  1  0 15]
- [ 2  0  5 ...  1  1 15]
- [ 2  0  5 ...  0  1 15]
- ...
- [ 2  0  1 ...  0  0  7]
- [ 2  0  1 ...  1  0  7]
- [ 2  0  0 ...  1  1  7]]
-Getting embeddings
-Loading embeddings from mfccs.pt
-Done getting embeddings
-finished train/test split
-Training
-Epoch 1/50 | Loss: 1.9752
-Epoch 2/50 | Loss: 1.8442
-Epoch 3/50 | Loss: 1.8249
-Epoch 4/50 | Loss: 1.7888
-Epoch 5/50 | Loss: 1.7753
-Epoch 6/50 | Loss: 1.7407
-Epoch 7/50 | Loss: 1.7487
-Epoch 8/50 | Loss: 1.7465
-Epoch 9/50 | Loss: 1.7427
-Epoch 10/50 | Loss: 1.7229
-Epoch 11/50 | Loss: 1.6861
-Epoch 12/50 | Loss: 1.6722
-Epoch 13/50 | Loss: 1.6605
-Epoch 14/50 | Loss: 1.6545
-Epoch 15/50 | Loss: 1.6364
-Epoch 16/50 | Loss: 1.6371
-Epoch 17/50 | Loss: 1.6731
-Epoch 18/50 | Loss: 1.6477
-Epoch 19/50 | Loss: 1.6277
-Epoch 20/50 | Loss: 1.6221
-Epoch 21/50 | Loss: 1.6300
-Epoch 22/50 | Loss: 1.6283
-Epoch 23/50 | Loss: 1.6228
-Epoch 24/50 | Loss: 1.6401
-Epoch 25/50 | Loss: 1.6191
-Epoch 26/50 | Loss: 1.6415
-Epoch 27/50 | Loss: 1.6237
-Epoch 28/50 | Loss: 1.6105
-Epoch 29/50 | Loss: 1.5937
-Epoch 30/50 | Loss: 1.5998
-Epoch 31/50 | Loss: 1.6164
-Epoch 32/50 | Loss: 1.5925
-Epoch 33/50 | Loss: 1.5834
-Epoch 34/50 | Loss: 1.5687
-Epoch 35/50 | Loss: 1.5354
-Epoch 36/50 | Loss: 1.5492
-Epoch 37/50 | Loss: 1.5552
-Epoch 38/50 | Loss: 1.5131
-Epoch 39/50 | Loss: 1.5239
-Epoch 40/50 | Loss: 1.5237
-Epoch 41/50 | Loss: 1.5015
-Epoch 42/50 | Loss: 1.5068
-Epoch 43/50 | Loss: 1.4730
-Epoch 44/50 | Loss: 1.4765
-Epoch 45/50 | Loss: 1.4660
-Epoch 46/50 | Loss: 1.4749
-Epoch 47/50 | Loss: 1.4443
-Epoch 48/50 | Loss: 1.4229
-Epoch 49/50 | Loss: 1.4259
-Epoch 50/50 | Loss:  
-Accuracy: 0.4661
-Label: 2, Pred: 5
-Label: 6, Pred: 5
-Label: 7, Pred: 5
-Label: 3, Pred: 5
-Label: 7, Pred: 5
-Label: 6, Pred: 5
-Label: 1, Pred: 5
-Label: 3, Pred: 5
-Label: 2, Pred: 5
-Label: 4, Pred: 5
-Label: 6, Pred: 5
-Label: 3, Pred: 5
-Label: 3, Pred: 5
-Label: 0, Pred: 5
-Label: 3, Pred: 5
-Label: 2, Pred: 5
-Label: 3, Pred: 5
-Label: 6, Pred: 5
-Label: 6, Pred: 5
-Label: 4, Pred: 5
-Label: 4, Pred: 5
-Label: 6, Pred: 5
-Label: 7, Pred: 5
-Label: 4, Pred: 5
-Label: 6, Pred: 5
-Label: 1, Pred: 5
-Label: 7, Pred: 5
-Label: 5, Pred: 5
-Label: 4, Pred: 5
-Label: 0, Pred: 5
-Label: 7, Pred: 5
-Label: 3, Pred: 5
-Label: 0, Pred: 5
-Label: 6, Pred: 5
-Label: 4, Pred: 5
-Label: 4, Pred: 5
-Label: 5, Pred: 5
-Label: 2, Pred: 5
-Label: 0, Pred: 5
-Label: 7, Pred: 5
-Label: 4, Pred: 5
-Label: 2, Pred: 5
-Label: 1, Pred: 5
-Label: 7, Pred: 5
-Label: 5, Pred: 5
-Label: 6, Pred: 5
-Label: 6, Pred: 5
-Label: 7, Pred: 5
-Label: 7, Pred: 5
-Label: 7, Pred: 5
-Label: 2, Pred: 5
-Label: 1, Pred: 5
-Label: 1, Pred: 5
-Label: 2, Pred: 5
-Label: 1, Pred: 5
-Label: 3, Pred: 5
-Label: 7, Pred: 5
-Label: 2, Pred: 5
-Label: 1, Pred: 5
-Label: 1, Pred: 5
-Label: 5, Pred: 5
-Label: 5, Pred: 5
-Label: 2, Pred: 5
-Label: 1, Pred: 5
-Label: 6, Pred: 5
-Label: 2, Pred: 5
-Label: 3, Pred: 5
-Label: 7, Pred: 5
-Label: 0, Pred: 5
-Label: 6, Pred: 5
-Label: 1, Pred: 5
-Label: 4, Pred: 5
-Label: 6, Pred: 5
-Label: 3, Pred: 5
-Label: 1, Pred: 5
-Label: 6, Pred: 5
-Label: 3, Pred: 5
-Label: 1, Pred: 5
-Label: 5, Pred: 5
-Label: 4, Pred: 5
-Label: 7, Pred: 5
-Label: 6, Pred: 5
-Label: 2, Pred: 5
-Label: 7, Pred: 5
-Label: 4, Pred: 5
-Label: 3, Pred: 5
-Label: 5, Pred: 5
-Label: 4, Pred: 5
-Label: 2, Pred: 5
-Label: 5, Pred: 5
-Label: 2, Pred: 5
-Label: 6, Pred: 5
-Label: 5, Pred: 5
-Label: 2, Pred: 5
-Label: 6, Pred: 5
-Label: 3, Pred: 5
-Label: 6, Pred: 5
-Label: 4, Pred: 5
-Label: 1, Pred: 5
-Label: 5, Pred: 5
-Label: 2, Pred: 5
-Label: 1, Pred: 5
-Label: 4, Pred: 5
-Label: 3, Pred: 5
-Label: 6, Pred: 5
-Label: 1, Pred: 5
-Label: 0, Pred: 5
-Label: 6, Pred: 5
-Label: 5, Pred: 5
-Label: 1, Pred: 5
-Label: 7, Pred: 5
-Label: 1, Pred: 5
-Label: 1, Pred: 5
-Label: 4, Pred: 5
-Label: 2, Pred: 5
-Label: 0, Pred: 5
-Label: 0, Pred: 5
-Label: 5, Pred: 5
-Label: 5, Pred: 5
-Label: 4, Pred: 5
-Label: 6, Pred: 5
-Label: 5, Pred: 5
-Label: 2, Pred: 5
-Label: 7, Pred: 5
-Label: 6, Pred: 5
-Label: 4, Pred: 5
-Label: 1, Pred: 5
-Label: 7, Pred: 5
-Label: 2, Pred: 5
-Label: 2, Pred: 5
-Label: 1, Pred: 5
-Label: 1, Pred: 5
-Label: 5, Pred: 5
-Label: 3, Pred: 5
-Label: 1, Pred: 5
-Label: 2, Pred: 5
-Label: 4, Pred: 5
-Label: 6, Pred: 5
-Label: 5, Pred: 5
-Label: 5, Pred: 5
-Label: 1, Pred: 5
-Label: 5, Pred: 5
-Label: 5, Pred: 5
-Label: 1, Pred: 5
-Label: 1, Pred: 5
-Label: 0, Pred: 5
-Label: 5, Pred: 5
-Label: 2, Pred: 5
-Label: 1, Pred: 5
-Label: 1, Pred: 5
-Label: 2, Pred: 5
-Label: 2, Pred: 5
-Label: 2, Pred: 5
-Label: 3, Pred: 5
-Label: 1, Pred: 5
-Label: 2, Pred: 5
-Label: 7, Pred: 5
-Label: 7, Pred: 5
-Label: 7, Pred: 5
-Label: 4, Pred: 5
-Label: 4, Pred: 5
-Label: 1, Pred: 5
-Label: 4, Pred: 5
-Label: 3, Pred: 5
-Label: 2, Pred: 5
-Label: 2, Pred: 5
-Label: 2, Pred: 5
-Label: 6, Pred: 5
-Label: 3, Pred: 5
-Label: 6, Pred: 5
-Label: 4, Pred: 5
-Label: 6, Pred: 5
-Label: 7, Pred: 5
-Label: 3, Pred: 5
-Label: 3, Pred: 5
-Label: 0, Pred: 5
-Label: 1, Pred: 5
-Label: 1, Pred: 5
-Label: 0, Pred: 5
-Label: 6, Pred: 5
-Label: 5, Pred: 5
-Label: 1, Pred: 5
-Label: 3, Pred: 5
-Label: 6, Pred: 5
-Label: 7, Pred: 5
-Label: 0, Pred: 5
-Label: 3, Pred: 5
-Label: 4, Pred: 5
-Label: 1, Pred: 5
-Label: 2, Pred: 5
-Label: 7, Pred: 5
-Label: 7, Pred: 5
-Label: 5, Pred: 5
-Label: 4, Pred: 5
-Label: 3, Pred: 5
-Label: 5, Pred: 5
-Label: 6, Pred: 5
-Label: 5, Pred: 5
-Label: 0, Pred: 5
-Label: 6, Pred: 5
-Label: 7, Pred: 5
-Label: 5, Pred: 5
-Label: 0, Pred: 5
-Label: 1, Pred: 5
-Label: 3, Pred: 5
-Label: 0, Pred: 5
-Label: 2, Pred: 5
-Label: 3, Pred: 5
-Label: 2, Pred: 5
-Label: 6, Pred: 5
-Label: 1, Pred: 5
-Label: 4, Pred: 5
-Label: 6, Pred: 5
-Label: 3, Pred: 5
-Label: 3, Pred: 5
-Label: 7, Pred: 5
-Label: 5, Pred: 5
-Label: 2, Pred: 5
-Label: 1, Pred: 5
-Label: 2, Pred: 5
-Label: 2, Pred: 5
-Label: 3, Pred: 5
-Label: 0, Pred: 5
-Label: 7, Pred: 5
-Label: 5, Pred: 5
-Label: 1, Pred: 5
-Label: 4, Pred: 5
-Label: 6, Pred: 5
-Label: 4, Pred: 5
-Label: 1, Pred: 5
-Label: 7, Pred: 5
-Label: 6, Pred: 5
-Label: 7, Pred: 5
-Label: 3, Pred: 5
-Label: 6, Pred: 5
-Label: 2, Pred: 5
-Label: 2, Pred: 5
-Label: 2, Pred: 5
-Label: 5, Pred: 5
-Label: 1, Pred: 5
-Label: 4, Pred: 5
-Label: 6, Pred: 5
-Label: 3, Pred: 5
-Label: 2, Pred: 5
-Label: 7, Pred: 5
-Label: 0, Pred: 5
-Label: 4, Pred: 5
-Label: 5, Pred: 5
-Label: 4, Pred: 5
-Label: 5, Pred: 5
-Label: 1, Pred: 5
-Label: 3, Pred: 5
-Label: 7, Pred: 5
-Label: 3, Pred: 5
-Label: 7, Pred: 5
-Label: 5, Pred: 5
-Label: 2, Pred: 5
-Label: 7, Pred: 5
-Label: 4, Pred: 5
-Label: 6, Pred: 5
-Label: 7, Pred: 5
-Label: 7, Pred: 5
-Label: 5, Pred: 5
-Label: 5, Pred: 5
-Label: 6, Pred: 5
-Label: 2, Pred: 5
-Label: 4, Pred: 5
-Label: 7, Pred: 5
-Label: 4, Pred: 5
-Label: 5, Pred: 5
-Label: 1, Pred: 5
-Label: 1, Pred: 5
-Label: 6, Pred: 5
-Label: 4, Pred: 5
-Label: 3, Pred: 5
-Label: 0, Pred: 5
-Label: 7, Pred: 5
-Label: 0, Pred: 5
-Label: 1, Pred: 5
-Label: 1, Pred: 5
-Label: 4, Pred: 5
-Label: 2, Pred: 5
-Label: 0, Pred: 5
-Label: 3, Pred: 5
-Label: 4, Pred: 5
-Label: 7, Pred: 5
-Label: 7, Pred: 5
-Label: 7, Pred: 5
+Epoch 1/200 | Loss: 2.0421
+epoch: 1
+Epoch 2/200 | Loss: 1.9985
+epoch: 2
+Epoch 3/200 | Loss: 2.0071
+epoch: 3
+Epoch 4/200 | Loss: 1.9966
+epoch: 4
+Epoch 5/200 | Loss: 1.9971
+epoch: 5
+Epoch 6/200 | Loss: 2.0072
+epoch: 6
+Epoch 7/200 | Loss: 1.9999
+epoch: 7
+Epoch 8/200 | Loss: 2.0171
+epoch: 8
+Epoch 9/200 | Loss: 1.9928
+epoch: 9
+Epoch 10/200 | Loss: 1.9886
+epoch: 10
+Epoch 11/200 | Loss: 1.9684
+epoch: 11
+Epoch 12/200 | Loss: 1.9848
+epoch: 12
+Epoch 13/200 | Loss: 1.9596
+epoch: 13
+Epoch 14/200 | Loss: 1.9592
+epoch: 14
+Epoch 15/200 | Loss: 1.9139
+epoch: 15
+Epoch 16/200 | Loss: 1.8872
+epoch: 16
+Epoch 17/200 | Loss: 1.8503
+epoch: 17
+Epoch 18/200 | Loss: 1.8449
+epoch: 18
+Epoch 19/200 | Loss: 1.8113
+epoch: 19
+Epoch 20/200 | Loss: 1.7604
+epoch: 20
+Epoch 21/200 | Loss: 1.8283
+epoch: 21
+Epoch 22/200 | Loss: 1.7788
+epoch: 22
+Epoch 23/200 | Loss: 1.7398
+epoch: 23
+Epoch 24/200 | Loss: 1.7513
+epoch: 24
+Epoch 25/200 | Loss: 1.7138
+epoch: 25
+Epoch 26/200 | Loss: 1.6991
+epoch: 26
+Epoch 27/200 | Loss: 1.6908
+epoch: 27
+Epoch 28/200 | Loss: 1.6695
+epoch: 28
+Epoch 29/200 | Loss: 1.6524
+epoch: 29
+Epoch 30/200 | Loss: 1.6969
+epoch: 30
+ Epoch 31/200 | Loss: 1.6787
+epoch: 31
+Epoch 32/200 | Loss: 1.6290
+epoch: 32
+Epoch 33/200 | Loss: 1.6060
+epoch: 33
+Epoch 34/200 | Loss: 1.6069
+epoch: 34
+Epoch 35/200 | Loss: 1.6309
+epoch: 35
+Epoch 36/200 | Loss: 1.5556
+epoch: 36
+Epoch 37/200 | Loss: 1.5054
+epoch: 37
+Epoch 38/200 | Loss: 1.5366
+epoch: 38
+Epoch 39/200 | Loss: 1.4892
+epoch: 39
+Epoch 40/200 | Loss: 1.4729
+epoch: 40
+Epoch 41/200 | Loss: 1.4507
+epoch: 41
+Epoch 42/200 | Loss: 1.4526
+epoch: 42
+Epoch 43/200 | Loss: 1.4726
+epoch: 43
+Epoch 44/200 | Loss: 1.4268
+epoch: 44
+Epoch 45/200 | Loss: 1.4062
+epoch: 45
+Epoch 46/200 | Loss: 1.4558
+epoch: 46
+Epoch 47/200 | Loss: 1.3777
+epoch: 47
+Epoch 48/200 | Loss: 1.4276
+epoch: 48
+Epoch 49/200 | Loss: 1.3790
+epoch: 49
+Epoch 50/200 | Loss: 1.3408
+epoch: 50
+Epoch 51/200 | Loss: 1.3438
+epoch: 51
+Epoch 52/200 | Loss: 1.3400
+epoch: 52
+Epoch 53/200 | Loss: 1.3000
+epoch: 53
+Epoch 54/200 | Loss: 1.3019
+epoch: 54
+Epoch 55/200 | Loss: 1.2551
+epoch: 55
+Epoch 56/200 | Loss: 1.2754
+epoch: 56
+Epoch 57/200 | Loss: 1.2301
+epoch: 57
+Epoch 58/200 | Loss: 1.2769
+epoch: 58
+Epoch 59/200 | Loss: 1.2530
+epoch: 59
+Epoch 60/200 | Loss: 1.1927
+epoch: 60
+Epoch 61/200 | Loss: 1.1727
+epoch: 61
+Epoch 62/200 | Loss: 1.1720
+epoch: 62
+Epoch 63/200 | Loss: 1.1868
+epoch: 63
+Epoch 64/200 | Loss: 1.1568
+epoch: 64
+Epoch 65/200 | Loss: 1.1645
+epoch: 65
+Epoch 66/200 | Loss: 1.1379
+epoch: 66
+Epoch 67/200 | Loss: 1.1565
+epoch: 67
+Epoch 68/200 | Loss: 1.1014
+epoch: 68
+Epoch 69/200 | Loss: 1.1292
+epoch: 69
+Epoch 70/200 | Loss: 1.1664
+epoch: 70
+Epoch 71/200 | Loss: 1.0872
+epoch: 71
+Epoch 72/200 | Loss: 1.0597
+epoch: 72
+Epoch 73/200 | Loss: 1.0280
+epoch: 73
+Epoch 74/200 | Loss: 1.0010
+epoch: 74
+Epoch 75/200 | Loss: 0.9847
+epoch: 75
+Epoch 76/200 | Loss: 0.9859
+epoch: 76
+Epoch 77/200 | Loss: 1.0247
+epoch: 77
+Epoch 78/200 | Loss: 0.9516
+epoch: 78
+Epoch 79/200 | Loss: 0.9315
+epoch: 79
+Epoch 80/200 | Loss: 0.9617
+epoch: 80
+Epoch 81/200 | Loss: 0.9081
+epoch: 81
+Epoch 82/200 | Loss: 0.9923
+epoch: 82
+Epoch 83/200 | Loss: 0.8856
+epoch: 83
+Epoch 84/200 | Loss: 0.8837
+epoch: 84
+Epoch 85/200 | Loss: 0.8808
+epoch: 85
+Epoch 86/200 | Loss: 0.8501
+epoch: 86
+Epoch 87/200 | Loss: 0.8434
+epoch: 87
+Epoch 88/200 | Loss: 0.8459
+epoch: 88
+Epoch 89/200 | Loss: 0.8220
+epoch: 89
+Epoch 90/200 | Loss: 0.8080
+epoch: 90
+Epoch 91/200 | Loss: 0.9438
+epoch: 91
+Epoch 92/200 | Loss: 0.7830
+epoch: 92
+Epoch 93/200 | Loss: 0.7930
+epoch: 93
+Epoch 94/200 | Loss: 0.8235
+epoch: 94
+Epoch 95/200 | Loss: 0.7947
+epoch: 95
+Epoch 96/200 | Loss: 0.7326
+epoch: 96
+Epoch 97/200 | Loss: 0.7375
+epoch: 97
+Epoch 98/200 | Loss: 0.7198
+epoch: 98
+Epoch 99/200 | Loss: 0.6695
+epoch: 99
+Epoch 100/200 | Loss: 0.6484
+epoch: 100
+Epoch 101/200 | Loss: 0.6633
+epoch: 101
+Epoch 102/200 | Loss: 0.6682
+epoch: 102
+Epoch 103/200 | Loss: 0.6587
+epoch: 103
+Epoch 104/200 | Loss: 0.6904
+epoch: 104
+Epoch 105/200 | Loss: 0.6714
+epoch: 105
+Epoch 106/200 | Loss: 0.6500
+epoch: 106
+Epoch 107/200 | Loss: 0.5839
+epoch: 107
+Epoch 108/200 | Loss: 0.5990
+epoch: 108
+Epoch 109/200 | Loss: 0.5063
+epoch: 109
+Epoch 110/200 | Loss: 0.6013
+epoch: 110
+Epoch 111/200 | Loss: 0.6467
+epoch: 111
+Epoch 112/200 | Loss: 0.5617
+epoch: 112
+Epoch 113/200 | Loss: 0.5215
+epoch: 113
+Epoch 114/200 | Loss: 0.5171
+epoch: 114
+Epoch 115/200 | Loss: 0.4894
+epoch: 115
+Epoch 116/200 | Loss: 0.4242
+epoch: 116
+Epoch 117/200 | Loss: 0.4638
+epoch: 117
+Epoch 118/200 | Loss: 0.5653
+epoch: 118
+Epoch 119/200 | Loss: 0.4940
+epoch: 119
+Epoch 120/200 | Loss: 0.4971
+epoch: 120
+Epoch 121/200 | Loss: 0.4240
+epoch: 121
+Epoch 122/200 | Loss: 0.3565
+epoch: 122
+Epoch 123/200 | Loss: 0.3442
+epoch: 123
+Epoch 124/200 | Loss: 0.3806
+epoch: 124
+Epoch 125/200 | Loss: 0.4835
+epoch: 125
+Epoch 126/200 | Loss: 0.3245
+epoch: 126
+Epoch 127/200 | Loss: 0.3423
+epoch: 127
+Epoch 128/200 | Loss: 0.4491
+epoch: 128
+Epoch 129/200 | Loss: 0.3399
+epoch: 129
+Epoch 130/200 | Loss: 0.3499
+epoch: 130
+Epoch 131/200 | Loss: 0.3618
+epoch: 131
+Epoch 132/200 | Loss: 0.3692
+epoch: 132
+Epoch 133/200 | Loss: 0.3787
+epoch: 133
+Epoch 134/200 | Loss: 0.2794
+epoch: 134
+Epoch 135/200 | Loss: 0.4103
+epoch: 135
+Epoch 136/200 | Loss: 0.4094
+epoch: 136
+Epoch 137/200 | Loss: 0.2282
+epoch: 137
+Epoch 138/200 | Loss: 0.2017
+epoch: 138
+Epoch 139/200 | Loss: 0.3367
+epoch: 139
+Epoch 140/200 | Loss: 0.2857
+epoch: 140
+Epoch 141/200 | Loss: 0.2843
+epoch: 141
+Epoch 142/200 | Loss: 0.1993
+epoch: 142
+Epoch 143/200 | Loss: 0.2239
+epoch: 143
+Epoch 144/200 | Loss: 0.2067
+epoch: 144
+Epoch 145/200 | Loss: 0.1509
+epoch: 145
+Epoch 146/200 | Loss: 0.3680
+epoch: 146
+Epoch 147/200 | Loss: 0.3510
+epoch: 147
+Epoch 148/200 | Loss: 0.1879
+epoch: 148
+Epoch 149/200 | Loss: 0.2408
+epoch: 149
+Epoch 150/200 | Loss: 0.2644
+epoch: 150
+Epoch 151/200 | Loss: 0.2214
+epoch: 151
+Epoch 152/200 | Loss: 0.2070
+epoch: 152
+Epoch 153/200 | Loss: 0.2019
+epoch: 153
+Epoch 154/200 | Loss: 0.1773
+epoch: 154
+Epoch 155/200 | Loss: 0.2021
+epoch: 155
+Epoch 156/200 | Loss: 0.4330
+epoch: 156
+Epoch 157/200 | Loss: 0.1897
+epoch: 157
+Epoch 158/200 | Loss: 0.2007
+epoch: 158
+Epoch 159/200 | Loss: 0.1993
+epoch: 159
+Epoch 160/200 | Loss: 0.1705
+epoch: 160
+Epoch 161/200 | Loss: 0.2197
+epoch: 161
+Epoch 162/200 | Loss: 0.2172
+epoch: 162
+Epoch 163/200 | Loss: 0.2253
+epoch: 163
+Epoch 164/200 | Loss: 0.1393
+epoch: 164
+Epoch 165/200 | Loss: 0.0673
+epoch: 165
+Epoch 166/200 | Loss: 0.2395
+epoch: 166
+Epoch 167/200 | Loss: 0.3796
+epoch: 167
+Epoch 168/200 | Loss: 0.1799
+epoch: 168
+Epoch 169/200 | Loss: 0.2412
+epoch: 169
+Epoch 170/200 | Loss: 0.2099
+epoch: 170
+Epoch 171/200 | Loss: 0.3528
+epoch: 171
+Epoch 172/200 | Loss: 0.2749
+epoch: 172
+Epoch 173/200 | Loss: 0.1411
+epoch: 173
+Epoch 174/200 | Loss: 0.1736
+epoch: 174
+Epoch 175/200 | Loss: 0.1704
+epoch: 175
+Epoch 176/200 | Loss: 0.1666
+epoch: 176
+Epoch 177/200 | Loss: 0.1409
+epoch: 177
+Epoch 178/200 | Loss: 0.2209
+epoch: 178
+Epoch 179/200 | Loss: 0.0860
+epoch: 179
+Epoch 180/200 | Loss: 0.0927
+epoch: 180
+Epoch 181/200 | Loss: 0.2910
+epoch: 181
+Epoch 182/200 | Loss: 0.2566
+epoch: 182
+Epoch 183/200 | Loss: 0.0920
+epoch: 183
+Epoch 184/200 | Loss: 0.1252
+epoch: 184
+Epoch 185/200 | Loss: 0.1385
+epoch: 185
+Epoch 186/200 | Loss: 0.1712
+epoch: 186
+Epoch 187/200 | Loss: 0.2074
+epoch: 187
+Epoch 188/200 | Loss: 0.1329
+epoch: 188
+Epoch 189/200 | Loss: 0.0618
+epoch: 189
+Epoch 190/200 | Loss: 0.1395
+epoch: 190
+Epoch 191/200 | Loss: 0.2548
+epoch: 191
+Epoch 192/200 | Loss: 0.1348
+epoch: 192
+Epoch 193/200 | Loss: 0.0687
+epoch: 193
+Epoch 194/200 | Loss: 0.2178
+epoch: 194
+Epoch 195/200 | Loss: 0.2264
+epoch: 195
+Epoch 196/200 | Loss: 0.0765
+epoch: 196
+Epoch 197/200 | Loss: 0.0381
+epoch: 197
+Epoch 198/200 | Loss: 0.0265
+epoch: 198
+Epoch 199/200 | Loss: 0.0346
+epoch: 199
+Epoch 200/200 | Loss: 0.0252
+Accuracy: 0.9931
 
-Accuracy: 0.1181
+Accuracy: 0.5625
