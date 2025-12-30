@@ -2,13 +2,6 @@
 from flask import Flask, render_template, request
 import torch
 import librosa
-import os
-
-# Make sure your models folder is accessible
-import sys
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-sys.path.append(os.path.join(ROOT, "models"))
-
 from cnn_model import CNNEmotionClassifier, extract_features_from_waveform
 
 # Flask app
@@ -19,7 +12,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load CNN model
 model = CNNEmotionClassifier()
-model_path = os.path.join(ROOT, "models", "best_cnn_model.pt")
+model_path = "best_cnn_model.pt"
 model.load_state_dict(torch.load(model_path, map_location=device))
 model.to(device)
 model.eval()
